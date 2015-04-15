@@ -5,9 +5,10 @@
 import java.applet.*;
 import java.awt.*;
 import java.awt.event.*;
+
 import javax.swing.Timer;
 
-public class Tetris extends Applet {
+public class Tetris extends Applet implements ActionListener,MouseListener{
 	
 	Image dbImage;
 	Graphics dbg;
@@ -15,7 +16,8 @@ public class Tetris extends Applet {
 	
 	
 	public void init(){
-		
+		setSize(1366,768);
+	
 	}
 
 	public void paint(Graphics g){
@@ -39,5 +41,31 @@ public class Tetris extends Applet {
 		//draw the image to screen
 		g.drawImage(dbImage,0,0,this);
 	}
+	
+	public void actionPerformed(ActionEvent e) {
+		
+	}
+
+	
+	public void mouseClicked(MouseEvent e) {
+		
+	}
+
+	public void mousePressed(MouseEvent e) {
+		
+	}
+
+	public void mouseReleased(MouseEvent e) {
+		
+	}
+
+	public void mouseEntered(MouseEvent e) {
+		
+	}
+
+	public void mouseExited(MouseEvent e) {
+		
+	}
+
 	
 }
