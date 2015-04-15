@@ -17,7 +17,7 @@ public class Tetris extends Applet implements ActionListener,MouseListener{
 	
 	public void init(){
 		setSize(1366,768);
-	
+	System.out.println("CAN I HAVE ACCESS PLEASE??");
 	}
 
 	public void paint(Graphics g){
